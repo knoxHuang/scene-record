@@ -1,0 +1,30 @@
+{
+    "name": "scene-record",
+    "version": "1.0.0",
+    "package_version": 2,
+    "description": "Scene Record",
+    "author": "Cocos Creator",
+    "main": "./dist/browser.js",
+    "contributions": {
+        "scene": {
+            "custom": "./dist/contributions/scene-toolbars.js"
+        },
+
+        "messages": {
+            "scene:ready": {
+                "methods": ["default.scene:ready"]
+            }
+        },
+
+        "profile": {
+            "scene-history": {
+                "list": {
+                    "default": []
+                }
+            }
+        }
+    },
+    "dependencies": {
+        "@types/node": "^14.14.35"
+    }
+}

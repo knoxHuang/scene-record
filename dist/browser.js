@@ -1,0 +1,23 @@
+'use strict';
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.unload = exports.load = exports.methods = void 0;
+/**
+ * 插件定义的方法
+ * Methods defined by extension
+ * 可以在 package.json 里的 contributions 里定义 messages 触发这里的方法
+ * And of course, messages can be defined in the contributions section in package.JSON to trigger the method here
+ */
+exports.methods = {};
+/**
+ * 启动的时候执行的初始化方法
+ * Initialization method performed at startup
+ */
+const load = function () { };
+exports.load = load;
+/**
+ * 插件被关闭的时候执行的卸载方法
+ * Uninstall method performed when the extension is closed
+ */
+const unload = function () { };
+exports.unload = unload;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnJvd3Nlci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3NvdXJjZS9icm93c2VyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFlBQVksQ0FBQzs7O0FBRWI7Ozs7O0dBS0c7QUFDVSxRQUFBLE9BQU8sR0FBRyxFQUFFLENBQUM7QUFFMUI7OztHQUdHO0FBQ0ksTUFBTSxJQUFJLEdBQUcsY0FBWSxDQUFDLENBQUM7QUFBckIsUUFBQSxJQUFJLFFBQWlCO0FBRWxDOzs7R0FHRztBQUNJLE1BQU0sTUFBTSxHQUFHLGNBQVksQ0FBQyxDQUFDO0FBQXZCLFFBQUEsTUFBTSxVQUFpQiIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0JztcblxuLyoqXG4gKiDmj5Lku7blrprkuYnnmoTmlrnms5VcbiAqIE1ldGhvZHMgZGVmaW5lZCBieSBleHRlbnNpb25cbiAqIOWPr+S7peWcqCBwYWNrYWdlLmpzb24g6YeM55qEIGNvbnRyaWJ1dGlvbnMg6YeM5a6a5LmJIG1lc3NhZ2VzIOinpuWPkei/memHjOeahOaWueazlVxuICogQW5kIG9mIGNvdXJzZSwgbWVzc2FnZXMgY2FuIGJlIGRlZmluZWQgaW4gdGhlIGNvbnRyaWJ1dGlvbnMgc2VjdGlvbiBpbiBwYWNrYWdlLkpTT04gdG8gdHJpZ2dlciB0aGUgbWV0aG9kIGhlcmVcbiAqL1xuZXhwb3J0IGNvbnN0IG1ldGhvZHMgPSB7fTtcblxuLyoqXG4gKiDlkK/liqjnmoTml7blgJnmiafooYznmoTliJ3lp4vljJbmlrnms5VcbiAqIEluaXRpYWxpemF0aW9uIG1ldGhvZCBwZXJmb3JtZWQgYXQgc3RhcnR1cFxuICovXG5leHBvcnQgY29uc3QgbG9hZCA9IGZ1bmN0aW9uKCkge307XG5cbi8qKlxuICog5o+S5Lu26KKr5YWz6Zet55qE5pe25YCZ5omn6KGM55qE5Y246L295pa55rOVXG4gKiBVbmluc3RhbGwgbWV0aG9kIHBlcmZvcm1lZCB3aGVuIHRoZSBleHRlbnNpb24gaXMgY2xvc2VkXG4gKi9cbmV4cG9ydCBjb25zdCB1bmxvYWQgPSBmdW5jdGlvbigpIHt9O1xuIl19

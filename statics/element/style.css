@@ -1,0 +1,50 @@
+@import url('app://node_modules/font-awesome/css/font-awesome.min.css');
+
+.content {
+    background-color: var(--color-normal-fill-emphasis);
+    padding: 10px;
+}
+
+h4 {
+    padding-top: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.item {
+    border: 1px solid var(--color-normal-border);
+    font-size: 12px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.item:hover {
+    background-color: var(--color-hover-fill);
+}
+
+.item.press {
+    background: var(--color-default-fill-emphasis);
+}
+
+.item.select {
+    background-color: var(--color-normal-fill-weakest);
+}
+
+ui-icon {
+    margin-right: 5px;
+}
+
+ui-label {
+    width: 150px;
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.del {
+    position: absolute;
+    right: 20px;
+}
